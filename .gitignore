@@ -1,0 +1,14 @@
+node_modules/
+
+# Terraform local state, plans, and provider plugins
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
